@@ -11,6 +11,10 @@ Most of my work sits where money and data move between systems that weren't buil
 - **Dealer management:** DealerTrack, CDK
 - **Vehicle valuation:** KBB, J.D. Power
 
+**Featured project**
+
+[**lumina-backend**](https://github.com/tayyabejaz/lumina-backend) is the backend for an adaptive exam-prep platform. Fully async FastAPI with SQLAlchemy 2.0 and asyncpg on Supabase Postgres, Redis and arq for caching and background jobs, JWT auth with RBAC, Stripe entitlements, and OpenTelemetry tracing. Every module follows the same router → service → repository layering, so the HTTP edge stays thin and business logic never touches the database directly.
+
 **Before backend**
 
 Five years of Android. On Drivemate, a Thai car-rental marketplace, I built the airport-transfer booking flow (+5% sales) and Stripe 3D Secure payments. Before that, a GPS speedometer app with 1M+ downloads. That background still shapes how I design APIs: I think about the client that has to consume them.
